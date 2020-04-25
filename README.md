@@ -17,10 +17,23 @@ bash dcc.sh &
 ```shell
 wget -O dcc.sh git.io/Jftkm
 bash dcc.sh "https://www.baidu.com" &  #指定url
-bash oss.sh "https://www.baidu.com" 8 & #指定url和8线程
+bash dcc.sh "https://www.baidu.com" 8 & #指定url和8线程
 ```
 
 &nbsp;
+
+后台无反馈版
+``` bash
+wget -O dcc.sh git.io/Jftkm
+nohup bash dcc.sh &
+```
+
+```shell
+wget -O dcc.sh git.io/Jftkm
+nohup bash dcc.sh "https://www.baidu.com" &  #指定url
+nohup bash dcc.sh "https://www.baidu.com" 8 & #指定url和8线程
+```
+
   
 #### 查看使用流量（执行此命令起）
 ```shell
