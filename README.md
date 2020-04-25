@@ -23,13 +23,19 @@
 &nbsp;
   
 #### 查看使用流量（执行此命令起）
-
+```shell
   apt install -y iftop && iftop -i eth0
   yum install -y iftop && iftop -i eth0
-  
+```
+
 #### 如果网卡不是eth0可以改一下，看网卡名可以用这条命令
+
+```shell
   apt insatll -y net-tools && ifconfig
   yum insatll -y net-tools && ifconfig
+```
 
 #### 结束命令
+```shell
   pkill bash && pkill wget
+```
